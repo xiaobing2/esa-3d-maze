@@ -1,5 +1,0 @@
-{
-  "assets": "dist",
-  "function": "edge-function/rank.js",
-  "buildCommand": "ls -la && npm install && npm run build"
-}
