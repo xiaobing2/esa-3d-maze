@@ -1,6 +1,5 @@
 {
-  // 静态资源目录，Vite 构建产物
   "assets": "dist",
-  // 边缘函数入口（如未使用边缘函数可删除此行）
-  "function": "edge-function/rank.js"
+  "function": "edge-function/rank.js",
+  "buildCommand": "npm install && npm run build"
 }
