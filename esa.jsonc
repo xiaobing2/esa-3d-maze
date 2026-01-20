@@ -1,5 +1,5 @@
 {
-  "assets": "/github/workspace/dist",
-  "function": "/github/workspace/edge-function/rank.js",
-  "buildCommand": "npm install && npm run build"
+  "assets": "dist",
+  "function": "edge-function/rank.js",
+  "buildCommand": "echo '>>> Reading esa.jsonc' && cat esa.jsonc && echo '>>> Listing files' && ls -la && npm install && npm run build"
 }
